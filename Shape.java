@@ -1,6 +1,6 @@
 public abstract class Shape {
     protected String color;
-    protected boolean filled;
+    protected boolean fillled;
 
     public Shape() {
 
@@ -8,7 +8,7 @@ public abstract class Shape {
 
     public Shape(String color, boolean filled) {
         this.color = color;
-        this.filled = filled;
+        this.fillled = fillled;
     }
 
     public String getColor() {
@@ -20,11 +20,11 @@ public abstract class Shape {
     }
 
     public boolean isFilled() {
-        return filled;
+        return fillled;
     }
 
     public void setFilled(boolean filled) {
-        this.filled = filled;
+        this.fillled = fillled;
     }
 
     public double getArea() {
